@@ -8,5 +8,24 @@ def count_jobs(data:list, job:str) -> int:
     Returns:
         int: The number of users with the given job
     """
-    return 
-print(count_jobs())
+    count=0
+    for i in data:
+        if i['job']==job:
+            count+=1
+    return count
+
+data=[
+    {
+        'name':'John'
+        'job':'Developer'
+    },
+    {
+        'name':'Mary'
+        'job':'Developer'
+    },
+    {
+        'name':'Matt'
+        'job':'Teacher'
+    }
+]
+print(count_jobs(data,'Teacher'))
