@@ -9,3 +9,4 @@ def count_jobs(data:list, job:str) -> int:
         int: The number of users with the given job
     """
     return 
+print(count_jobs())
