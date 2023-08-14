@@ -6,4 +6,11 @@ def find_max_key(data: dict):
     Returns:
         int: The maximum key in the dictionary.
     """
-    return 
+    
+    return data.popitem()
+data = {
+    1: 'a', 
+    2: 'b', 
+    3: 'c'
+  }
+print(find_max_key(data))
