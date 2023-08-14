@@ -8,9 +8,8 @@ def find_max_value(data: dict):
     """
     return data.popitem()
 data = {
-    "x": "23",
-    "3": "y", 
-    "z": "5", 
-    7:'a'
+    'a': 'abc',
+    'b': 'def', 
+    'c': 'ghi'
   }
 print(find_max_value(data))
