@@ -6,4 +6,11 @@ def find_max_value(data: dict):
     Returns:
         int: The maximum value in the dictionary.
     """
-    return 
+    return data.popitem()
+data = {
+    "x": "23",
+    "3": "y", 
+    "z": "5", 
+    7:'a'
+  }
+print(find_max_value(data))
